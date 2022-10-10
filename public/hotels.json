@@ -1,0 +1,74 @@
+{
+    "hotels": [
+    {
+        "hotelId": 0,
+        "name": "Hypnos Hotel",
+        "location": "Kreta",
+        "departure": ["Landvetter", "Arlanda", "Köpenhamn flygplats"],
+        "description": "",
+        "facilities": ["WiFi", "Reception 24 h", "Bad/strand 100 m", "Restaurang", "Vattenpark"],
+        "image": "./images/image_1.jpg",
+        "food": ["All Inclusive", "Frukost", "Halv Pension"],
+        "price": {
+            "adults": 3995,
+            "children": 1995
+        }
+    },
+    {
+        "hotelId": 1,
+        "name": "Amistad Hotel",
+        "location": "Mallorca",
+        "departure": ["Landvetter", "Arlanda", "Köpenhamn flygplats"],
+        "description": "",
+        "facilities": ["WiFi", "Reception 24 h", "Bad/strand 500 m", "Restaurang", "Barnpool"],
+        "image": "./images/image_2.jpg",
+        "food": ["All Inclusive", "Frukost", "Halv Pension"],
+        "price": {
+            "adults": 4495,
+            "children": 2495
+        }
+    },
+    {
+        "hotelId": 2,
+        "name": "Rhodos Horizon",
+        "location": "Rhodos",
+        "departure": ["Landvetter", "Arlanda", "Köpenhamn flygplats"],
+        "description": "",
+        "facilities": ["WiFi", "Reception 24 h", "Bad/strand 100 m", "Restaurang", "Utomhuspool"],
+        "image": "./images/image_3.jpg",
+        "food": ["All Inclusive", "Frukost", "Halv Pension"],
+        "price": {
+            "adults": 3995,
+            "children": 1995
+        }
+    },
+    {
+        "hotelId": 3,
+        "name": "Sandize Hotel",
+        "location": "Kanarieöarna",
+        "departure": ["Landvetter", "Arlanda", "Köpenhamn flygplats"],
+        "description": "",
+        "facilities": ["WiFi", "Reception 24 h", "Bad/strand 25 m", "Restaurang", "Barnpool"],
+        "image": "./images/image_4.jpg",
+        "food": ["All Inclusive", "Frukost", "Halv Pension"],
+        "price": {
+            "adults": 5995,
+            "children": 2995
+        }
+    },
+    {
+        "hotelId": 4,
+        "name": "xxx",
+        "location": "Cypern",
+        "departure": ["Landvetter", "Arlanda", "Köpenhamn flygplats"],
+        "description": "",
+        "facilities": ["WiFi", "Reception 24 h", "Bad/strand 800 m", "Restaurang", "Utomhuspool"],
+        "image": "./images/image_5.jpg",
+        "food": ["All Inclusive", "Frukost", "Halv Pension"],
+        "price": {
+            "adults": 4495,
+            "children": 2295
+        }
+    }
+]
+}
