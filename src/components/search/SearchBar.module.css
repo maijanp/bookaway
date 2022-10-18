@@ -1,0 +1,43 @@
+form{display: flex;
+flex-direction: row;
+padding: 0.5rem;
+background-color: #BFE6E9;
+justify-content: space-evenly;
+align-items: flex-end;
+margin-top: 5%;}
+
+.selectWrapper{
+    width: 18%;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+select{
+    border: none;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+button{
+    border: none;
+    background-color: #91D7FF;
+    border-radius: 5px;
+    width: 100%;
+    padding: 00.5rem;
+    height: min-content;
+    text-decoration: none;
+    color: #4F5E75;
+    box-shadow: 1px 4px 4px 1px rgba(0,0,0,0.27);
+    -webkit-box-shadow: 1px 4px 4px 1px rgba(0,0,0,0.27);
+    -moz-box-shadow: 1px 4px 4px 1px rgba(0,0,0,0.27);
+}
+
+.wrapper{
+    padding: 0.5rem;
+    width: 14%;
+}
+
+label{
+    margin-bottom: 5px;
+}

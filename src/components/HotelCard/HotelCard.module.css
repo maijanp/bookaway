@@ -1,21 +1,27 @@
-.imageContainer{
-    width: 500px;
+.imageContainer {
+  width: 40%;
+  padding: 0;
+  margin: 0;
 }
 
-.img{
-    width: 100%;
+img {
+    display: block;
+  width: 100%;
 }
 
-.hotelCard{
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    padding: 2rem;
-    margin: auto;
+.hotelCard {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  box-shadow: 0px 4px 9px 2px rgba(0, 0, 0, 0.27);
+  -webkit-box-shadow: 0px 4px 9px 2px rgba(0, 0, 0, 0.152);
+  -moz-box-shadow: 0px 4px 9px 2px rgba(0, 0, 0, 0.27);
+  margin-bottom: 1rem;
 }
 
-.textWrapper{
-    display: flex;
-    flex-direction: column;
-    margin-left: 2rem;
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
 }
