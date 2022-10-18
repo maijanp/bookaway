@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Home from "./pages/Home";
 import HotelPage from "./pages/HotelPage";
 import Hotels from "./pages/Hotels";
+import "./fonts/Outfit-VariableFont_wght.ttf"
 
 function App() {
   const [hotels, setHotels] = useState([]);

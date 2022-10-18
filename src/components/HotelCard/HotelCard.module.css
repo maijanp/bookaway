@@ -7,6 +7,15 @@
 }
 
 .hotelCard{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
     padding: 2rem;
     margin: auto;
+}
+
+.textWrapper{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
 }

@@ -6,9 +6,9 @@
         "location": "Kreta",
         "departure": ["Landvetter", "Arlanda", "Köpenhamn flygplats"],
         "description": "",
-        "facilities": ["WiFi", "Reception 24 h", "Bad/strand 100 m", "Restaurang", "Vattenpark"],
+        "facilities": ["WiFi, ", "Reception 24 h, ", "Bad/strand 100 m, ", "Restaurang, ", "Vattenpark"],
         "image": "./images/image_1.jpg",
-        "food": ["All Inclusive", "Frukost", "Halv Pension"],
+        "food": ["All Inclusive, ", "Frukost, ", "Halv Pension"],
         "price": {
             "adults": 3995,
             "children": 1995
@@ -20,7 +20,7 @@
         "location": "Mallorca, Palma Nova",
         "departure": ["Landvetter", "Arlanda", "Köpenhamn flygplats"],
         "description": "",
-        "facilities": ["WiFi", "Reception 24 h", "Bad/strand 500 m", "Restaurang", "Barnpool"],
+        "facilities": ["WiFi, ", "Reception 24 h, ", "Bad/strand 500 m, ", "Restaurang, ", "Barnpool"],
         "image": "./images/image_2.jpg",
         "food": ["All Inclusive", "Frukost", "Halv Pension"],
         "price": {
@@ -34,7 +34,7 @@
         "location": "Rhodos",
         "departure": ["Landvetter", "Arlanda", "Köpenhamn flygplats"],
         "description": "",
-        "facilities": ["WiFi", "Reception 24 h", "Bad/strand 100 m", "Restaurang", "Utomhuspool"],
+        "facilities": ["WiFi, ", "Reception 24 h, ", "Bad/strand 100 m, ", "Restaurang, ", "Utomhuspool"],
         "image": "./images/image_3.jpg",
         "food": ["All Inclusive", "Frukost", "Halv Pension"],
         "price": {
@@ -48,7 +48,7 @@
         "location": "Thailand",
         "departure": ["Landvetter", "Arlanda", "Köpenhamn flygplats"],
         "description": "",
-        "facilities": ["WiFi", "Reception 24 h", "Bad/strand 3 km", "Restaurang", "Barnpool"],
+        "facilities": ["WiFi, ", "Reception 24 h, ", "Bad/strand 3 km, ", "Restaurang, ", "Barnpool"],
         "image": "./images/image_4.jpg",
         "food": ["All Inclusive", "Frukost", "Halv Pension"],
         "price": {
@@ -62,7 +62,7 @@
         "location": "Portugal",
         "departure": ["Landvetter", "Arlanda", "Köpenhamn flygplats"],
         "description": "",
-        "facilities": ["WiFi", "Reception 24 h", "Bad/strand 0 m", "Restaurang", "Utomhuspool"],
+        "facilities": ["WiFi, ", "Reception 24 h, ", "Bad/strand 0 m, ", "Restaurang, ", "Utomhuspool"],
         "image": "./images/image_5.jpg",
         "food": ["All Inclusive", "Frukost", "Halv Pension"],
         "price": {

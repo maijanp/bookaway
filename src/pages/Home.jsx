@@ -35,15 +35,15 @@ export default function Home() {
     <>
       <TopSection
         linkUrl1="http://localhost:3000/"
-        link1="Hem"
+        link1="HEM"
         linkUrl2="http://localhost:3000/hotels"
-        link2="Boende"
+        link2="BOENDE"
         linkUrl3=""
-        link3="Paketresa"
+        link3="PAKETRESA"
         linkUrl4=""
-        link4="Taxi"
+        link4="TAXI"
         linkUrl5=""
-        link5="Hjälp"
+        link5="HJÄLP"
         logoUrl="./images/logo-1.png"
       ></TopSection>
       <Searchbar
