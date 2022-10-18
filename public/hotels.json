@@ -2,7 +2,7 @@
     "hotels": [
     {
         "hotelId": 0,
-        "name": "Hypnos Hotel",
+        "name": "Adventure Hotel",
         "location": "Kreta",
         "departure": ["Landvetter", "Arlanda", "Köpenhamn flygplats"],
         "description": "",
@@ -16,8 +16,8 @@
     },
     {
         "hotelId": 1,
-        "name": "Amistad Hotel",
-        "location": "Mallorca",
+        "name": "Holiday Inn Mallorca",
+        "location": "Mallorca, Palma Nova",
         "departure": ["Landvetter", "Arlanda", "Köpenhamn flygplats"],
         "description": "",
         "facilities": ["WiFi", "Reception 24 h", "Bad/strand 500 m", "Restaurang", "Barnpool"],
@@ -30,7 +30,7 @@
     },
     {
         "hotelId": 2,
-        "name": "Rhodos Horizon",
+        "name": "Relax Hotel",
         "location": "Rhodos",
         "departure": ["Landvetter", "Arlanda", "Köpenhamn flygplats"],
         "description": "",
@@ -44,11 +44,11 @@
     },
     {
         "hotelId": 3,
-        "name": "Sandize Hotel",
-        "location": "Kanarieöarna",
+        "name": "Grand Beach Hotel",
+        "location": "Thailand",
         "departure": ["Landvetter", "Arlanda", "Köpenhamn flygplats"],
         "description": "",
-        "facilities": ["WiFi", "Reception 24 h", "Bad/strand 25 m", "Restaurang", "Barnpool"],
+        "facilities": ["WiFi", "Reception 24 h", "Bad/strand 3 km", "Restaurang", "Barnpool"],
         "image": "./images/image_4.jpg",
         "food": ["All Inclusive", "Frukost", "Halv Pension"],
         "price": {
@@ -58,11 +58,11 @@
     },
     {
         "hotelId": 4,
-        "name": "xxx",
-        "location": "Cypern",
+        "name": "Blue Playa Hotel",
+        "location": "Portugal",
         "departure": ["Landvetter", "Arlanda", "Köpenhamn flygplats"],
         "description": "",
-        "facilities": ["WiFi", "Reception 24 h", "Bad/strand 800 m", "Restaurang", "Utomhuspool"],
+        "facilities": ["WiFi", "Reception 24 h", "Bad/strand 0 m", "Restaurang", "Utomhuspool"],
         "image": "./images/image_5.jpg",
         "food": ["All Inclusive", "Frukost", "Halv Pension"],
         "price": {

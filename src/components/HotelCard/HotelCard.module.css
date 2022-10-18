@@ -1,0 +1,12 @@
+.imageContainer{
+    width: 500px;
+}
+
+.img{
+    width: 100%;
+}
+
+.hotelCard{
+    padding: 2rem;
+    margin: auto;
+}
