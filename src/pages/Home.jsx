@@ -26,7 +26,7 @@ const dates = [
     month: "Augusti",
     weeks: ["vecka 31", "vecka 32", "vecka 33", "vecka 34", "vecka 35"],
   },
-  { month: "September", weeks: null },
+  { month: "September", weeks: false },
 ];
 
 const lengthsOfStay = ["Weekend", "1 vecka", "2 veckor", "3 veckor"];
@@ -53,9 +53,9 @@ export default function Home() {
         optionList3={dates}
         optionList4={lengthsOfStay}
         labelSelect1="Avreseort"
-        labelSelect2="Resemål"
+        labelSelect2="Resmål"
         labelSelect3="Datum"
-        labelSelect4="Antal resenärer"
+        labelSelect4="Reslängd"
       ></Searchbar>
    </>
   );
