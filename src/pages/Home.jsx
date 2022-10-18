@@ -1,4 +1,3 @@
-
 import Searchbar from "../components/search/SearchBar";
 import TopSection from "../components/TopSection/TopSection";
 
@@ -57,6 +56,6 @@ export default function Home() {
         labelSelect3="Datum"
         labelSelect4="Reslängd"
       ></Searchbar>
-   </>
+    </>
   );
 }

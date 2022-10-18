@@ -1,3 +1,4 @@
+import { Dropdown } from "bootstrap";
 import React from "react";
 import styles from "../search/SearchBar.module.css"
 

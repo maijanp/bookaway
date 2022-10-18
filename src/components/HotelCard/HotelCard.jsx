@@ -5,9 +5,10 @@ export default function hotelCard(props) {
   return (
     <div className={styles.hotelCard}>
       <h1>{props.hotel.name}</h1>
-      <p>Destination: {props.hotel.location}</p>
-      <p>{props.hotel.description}</p>
+      <p>{props.hotel.location}</p>
+
       <p>{props.hotel.facilities}</p>
+      <p>Fr. {props.hotel.price.adults}/person</p>
 
       <div className={styles.imageContainer}>
         <img src={props.hotel.image} alt="" />
