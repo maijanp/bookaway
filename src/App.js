@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Home from "./pages/Home";
 import HotelPage from "./pages/HotelPage";
 import Hotels from "./pages/Hotels";
+import BookingPage from "./pages/BookingPage/BookingPage";
 import "./fonts/Outfit-VariableFont_wght.ttf"
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/hotels" element={<Hotels hotels={hotels} />} />
         <Route path="/hotels/:id" element={<HotelPage hotels={hotels} />} />
+        <Route path="/hotels/:id/booking" element={<BookingPage />} />
       </Routes>
       </>
   );
