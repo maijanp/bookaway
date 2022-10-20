@@ -2,13 +2,13 @@
     "hotels": [
     {
         "hotelId": 0,
-        "name": "Adventure Hotel",
-        "location": "Kreta",
+        "name": "Holiday Inn Mallorca",
+        "location": "Mallorca, Palma Nova",
         "departure": ["Landvetter", "Arlanda", "Köpenhamn flygplats"],
-        "description": "",
-        "facilities": ["WiFi, ", "Reception 24 h, ", "Bad/strand 100 m, ", "Restaurang, ", "Vattenpark"],
+        "description": "Holiday Inn Mallorca ligger ett stankast från stranden och endast en kort promenad från centrum. Här finns något för hela familjen, varför inte slappa i en solstol när barnen är på bamseclub? Vi erbjuder även flera olika aktiviteter och utflykter. Så vare sig  om du vill ta det lugnt eller hålla igång under semestern så finns det något för dig.",
+        "facilities": ["WiFi", "Reception 24h", "Bad/strand 50 m", "Restaurang", "Barnpool"],
         "image": "./images/image_1.jpg",
-        "food": ["All Inclusive, ", "Frukost, ", "Halv Pension"],
+        "food": ["All Inclusive"],
         "price": {
             "adults": 3995,
             "children": 1995
@@ -16,13 +16,13 @@
     },
     {
         "hotelId": 1,
-        "name": "Holiday Inn Mallorca",
-        "location": "Mallorca, Palma Nova",
+        "name": "Adventure Hotel",
+        "location": "Kreta",
         "departure": ["Landvetter", "Arlanda", "Köpenhamn flygplats"],
         "description": "",
-        "facilities": ["WiFi, ", "Reception 24 h, ", "Bad/strand 500 m, ", "Restaurang, ", "Barnpool"],
+        "facilities": ["WiFi", "Reception 24h", "Bad/strand 900 m", "Restaurang", "Barnpool"],
         "image": "./images/image_2.jpg",
-        "food": ["All Inclusive", "Frukost", "Halv Pension"],
+        "food": ["All Inclusive"],
         "price": {
             "adults": 4495,
             "children": 2495
@@ -31,15 +31,15 @@
     {
         "hotelId": 2,
         "name": "Relax Hotel",
-        "location": "Rhodos",
+        "location": "Thailand",
         "departure": ["Landvetter", "Arlanda", "Köpenhamn flygplats"],
         "description": "",
-        "facilities": ["WiFi, ", "Reception 24 h, ", "Bad/strand 100 m, ", "Restaurang, ", "Utomhuspool"],
+        "facilities": ["WiFi", "Reception 24h", "Bad/strand 500 m", "Restaurang", "Barnpool"],
         "image": "./images/image_3.jpg",
-        "food": ["All Inclusive", "Frukost", "Halv Pension"],
+        "food": ["All Inclusive"],
         "price": {
-            "adults": 3995,
-            "children": 1995
+            "adults": 6995,
+            "children": 3495
         }
     },
     {
@@ -50,10 +50,10 @@
         "description": "",
         "facilities": ["WiFi, ", "Reception 24 h, ", "Bad/strand 3 km, ", "Restaurang, ", "Barnpool"],
         "image": "./images/image_4.jpg",
-        "food": ["All Inclusive", "Frukost", "Halv Pension"],
+        "food": ["Frukost"],
         "price": {
-            "adults": 5995,
-            "children": 2995
+            "adults": 2495,
+            "children": 1495
         }
     },
     {
@@ -62,12 +62,12 @@
         "location": "Portugal",
         "departure": ["Landvetter", "Arlanda", "Köpenhamn flygplats"],
         "description": "",
-        "facilities": ["WiFi, ", "Reception 24 h, ", "Bad/strand 0 m, ", "Restaurang, ", "Utomhuspool"],
+        "facilities": ["WiFi", "Reception 24h", "Bad/strand 0m", "Restaurang", "Barnpool"],
         "image": "./images/image_5.jpg",
-        "food": ["All Inclusive", "Frukost", "Halv Pension"],
+        "food": ["Halv Pension"],
         "price": {
-            "adults": 4495,
-            "children": 2295
+            "adults": 2995,
+            "children": 1995
         }
     }
 ]
