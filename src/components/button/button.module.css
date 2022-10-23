@@ -1,8 +1,10 @@
 .button{
-    padding: 0.8rem;
+    height: fit-content;
+    padding: 0.5rem;
     background-color: #91D7FF;
     border-radius: 5px;
-    width: fit-content;
+    min-width: 100px;
+    text-align: center;
     text-decoration: none;
     color: #4F5E75;
     box-shadow: 1px 4px 4px 1px rgba(0,0,0,0.27);

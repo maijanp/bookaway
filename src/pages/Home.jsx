@@ -1,6 +1,7 @@
-import CardGroup from "../components/CardGroup/CardGroup"
+import CardGroup from "../components/CardGroup/CardGroup";
 import Searchbar from "../components/search/SearchBar";
 import TopSection from "../components/TopSection/TopSection";
+import LeftAlignedCard from "../components/LeftCard/LeftAlignedCard";
 
 const placesOfDeparture = ["Stockholm", "Göteborg", "Malmö", "Köpenhamn"];
 const destinations = [
@@ -47,7 +48,7 @@ export default function Home(props) {
         link5="HJÄLP"
         logoUrl="./images/logo-1.png"
       ></TopSection>
-      
+
       <Searchbar
         optionList1={placesOfDeparture}
         optionList2={destinations}
@@ -59,24 +60,33 @@ export default function Home(props) {
         labelSelect4="Reslängd"
         handleSearch={props.handleHotelSearch}
       ></Searchbar>
-      <h1>Vilken typ av resa söker du?</h1>
+      <h1 style={{ textAlign: "center" }}>Vilken typ av resa söker du?</h1>
       <CardGroup
         card1Img="../images/sunny_holiday.jpg"
         card1Title="Sol & Bad"
         card1Url="./Hotels"
         card1LinkText="Res från 1995:-/person"
-        
         card2Img="../images/city.jpg"
         card2Title="City"
         card2Url="./Hotels"
+        card2LinkText="Res från 795:-/person"
         card3Img="../images/culture.jpg"
         card3Title="Kultur"
         card3Url="./Hotels"
-        card3LinkText
+        card3LinkText="Res från 795:-/person"
       ></CardGroup>
+      <LeftAlignedCard
+      imgUrl="../images/family_ocean.jpg"
+      cardTitle="Sommarresor"
+      cardParagraph1="Här hittar du alla våra resemål till sommarlovet.
+      Ta med hela familjen, njut på stranden och åk på äventyr!
+      "
 
+      cardParagraph2="  Bokar du ett All Inclusive hotell ingår även all mat och dryck."
+      cardLinkUrl="./hotels"
+      cardLinkText="Res från 1995:-/person"
+      ></LeftAlignedCard>
       
-
     </>
   );
 }

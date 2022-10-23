@@ -1,5 +1,5 @@
 import TopSection from "../../components/TopSection/TopSection";
-import "./BookingPage.css";
+import "./BookingPage.module.css";
 
 const data = {
   hotel: {
