@@ -31,7 +31,7 @@ const dates = [
 
 const lengthsOfStay = ["Weekend", "1 vecka", "2 veckor", "3 veckor"];
 
-export default function Home() {
+export default function Home(props) {
   return (
     <>
       <TopSection
@@ -57,6 +57,7 @@ export default function Home() {
         labelSelect2="Resmål"
         labelSelect3="Datum"
         labelSelect4="Reslängd"
+        handleSearch={props.handleHotelSearch}
       ></Searchbar>
       <h1>Vilken typ av resa söker du?</h1>
       <CardGroup
@@ -73,6 +74,9 @@ export default function Home() {
         card3Url="./Hotels"
         card3LinkText
       ></CardGroup>
+
+      
+
     </>
   );
 }
