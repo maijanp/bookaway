@@ -16,9 +16,9 @@ const data = {
     transfer: false
   },
   paymentAlternatives: [
-    { name: "swish", imageUrl: "./images/swish.png" },
-    { name: "card", imageUrl: "./images/mastercard.png" },
-    { name: "invoice", imageUrl: "./images/klarna.png" }
+    { name: "swish", imageUrl: "" },
+    { name: "card", imageUrl: "" },
+    { name: "invoice", imageUrl: "" }
   ]
 };
 
@@ -44,8 +44,8 @@ export default function Booking() {
         logoUrl="../../../images/logo-1.png"
       ></TopSection>
       <div className="top-container">
-        <a href="http://localhost:3000/hotels">Holiday Inn Mallorca</a>
-        <h1>Boka din resa</h1>
+        <a className="a" href="http://localhost:3000/hotels">Holiday Inn Mallorca</a>
+        <h1 className="h1">Boka din resa</h1>
       </div>
       <div className="flex-container">
         <div className="booking-information">
@@ -67,7 +67,7 @@ export default function Booking() {
         <div className="flex-container">
           <form onSubmit={handleSubmit}>
             <div className="travelers-info">
-              <h2>Vem ska resa?</h2>
+              <h2 className="h2">Vem ska resa?</h2>
               {[...Array(data.hotel.adults)].map((x, i) => (
                 <div key={`adults-${i}`}>
                   <h3>Vuxen {i + 1}</h3>
@@ -131,7 +131,7 @@ export default function Booking() {
               </div>
             </div>
             <div className="additional-info">
-              <h2>Tillval</h2>
+              <h2  className="h2">Tillval</h2>
               <div className="form-field">
                 <label>Anslutande rum</label>
                 <input type="radio" name="connectedRooms" value="Yes" />
@@ -152,16 +152,16 @@ export default function Booking() {
                 Nej
               </div>
             </div>
-              <h2>Betalalternativ</h2>
+              <h2 className="h2">Betalalternativ</h2>
               <div className="payment-types">
               {data.paymentAlternatives.map((paymentAlternative, idx) => (
                 <div key={`${idx}`}>
                   {paymentAlternative.name}{" "}
-                  <img src="{paymentAlternative.imageUrl}" />
+                  <img className="payment-img" src="{paymentAlternative.imageUrl}" />
                 </div>
               ))}
             </div>
-            <button type="submit">Bekräfta bokning</button>
+            <button className="booking-btn" type="submit">Bekräfta bokning</button>
           </form>
         </div>
       </div>
