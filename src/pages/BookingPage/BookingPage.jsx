@@ -31,7 +31,7 @@ export default function Booking() {
   return (
     <>
       <div className="top-container">
-        <a className="a" href="http://localhost:3000/hotels">Holiday Inn Mallorca</a>
+        <a className="a" href="http://localhost:3000/hotels/0">Holiday Inn Mallorca</a>
         <h1 className="h1">Boka din resa</h1>
       </div>
       <div className="flex-container">
