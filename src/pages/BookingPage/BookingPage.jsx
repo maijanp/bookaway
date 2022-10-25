@@ -16,9 +16,9 @@ const data = {
     transfer: false
   },
   paymentAlternatives: [
-    { name: "swish", imageUrl: "" },
-    { name: "card", imageUrl: "" },
-    { name: "invoice", imageUrl: "" }
+    { name: "swish", imageUrl: "/images/swish.png" },
+    { name: "card", imageUrl: "/images/visa.png" },
+    { name: "invoice", imageUrl: "/images/klarna.png" }
   ]
 };
 
@@ -157,7 +157,7 @@ export default function Booking() {
               {data.paymentAlternatives.map((paymentAlternative, idx) => (
                 <div key={`${idx}`}>
                   {paymentAlternative.name}{" "}
-                  <img className="payment-img" src="{paymentAlternative.imageUrl}" />
+                  <img className="payment-img" src={paymentAlternative.imageUrl} />
                 </div>
               ))}
             </div>
