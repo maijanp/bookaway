@@ -30,19 +30,6 @@ function handleSubmit(e) {
 export default function Booking() {
   return (
     <>
-      <TopSection
-        linkUrl1="http://localhost:3000/"
-        link1="Hem"
-        linkUrl2="http://localhost:3000/hotels"
-        link2="Boende"
-        linkUrl3=""
-        link3="Paketresa"
-        linkUrl4=""
-        link4="Taxi"
-        linkUrl5=""
-        link5="Hjälp"
-        logoUrl="../../../images/logo-1.png"
-      ></TopSection>
       <div className="top-container">
         <a className="a" href="http://localhost:3000/hotels">Holiday Inn Mallorca</a>
         <h1 className="h1">Boka din resa</h1>

@@ -6,6 +6,7 @@ import Hotels from "./pages/Hotels";
 import BookingPage from "./pages/BookingPage/BookingPage";
 import "./fonts/Outfit-VariableFont_wght.ttf";
 import SearchResult from "./pages/SearchResult";
+import TopSection from "./components/TopSection/TopSection"
 
 function App() {
   const [hotels, setHotels] = useState([]);
@@ -39,6 +40,17 @@ function App() {
 
   return (
     <>
+    <TopSection  linkUrl1="/"
+        link1="HEM"
+        linkUrl2="/hotels"
+        link2="BOENDE"
+        linkUrl3=""
+        link3="PAKETRESA"
+        linkUrl4=""
+        link4="TAXI"
+        linkUrl5=""
+        link5="HJÄLP"
+        logoUrl="../../../images/logo-1.png"></TopSection>
       <Routes>
         <Route
           exact path="/"

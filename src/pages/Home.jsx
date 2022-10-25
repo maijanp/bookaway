@@ -1,6 +1,5 @@
 import CardGroup from "../components/CardGroup/CardGroup";
 import Searchbar from "../components/search/SearchBar";
-import TopSection from "../components/TopSection/TopSection";
 import LeftAlignedCard from "../components/LeftCard/LeftAlignedCard";
 
 const placesOfDeparture = ["Stockholm", "Göteborg", "Malmö", "Köpenhamn"];
@@ -35,20 +34,6 @@ const lengthsOfStay = ["Weekend", "1 vecka", "2 veckor", "3 veckor"];
 export default function Home(props) {
   return (
     <>
-      <TopSection
-        linkUrl1="http://localhost:3000/"
-        link1="HEM"
-        linkUrl2="http://localhost:3000/hotels"
-        link2="BOENDE"
-        linkUrl3=""
-        link3="PAKETRESA"
-        linkUrl4=""
-        link4="TAXI"
-        linkUrl5=""
-        link5="HJÄLP"
-        logoUrl="./images/logo-1.png"
-      ></TopSection>
-
       <Searchbar
         optionList1={placesOfDeparture}
         optionList2={destinations}
