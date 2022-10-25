@@ -1,5 +1,5 @@
 import TopSection from "../../components/TopSection/TopSection";
-import "./BookingPage.module.css";
+import "./BookingPage.css";
 
 const data = {
   hotel: {
@@ -16,9 +16,9 @@ const data = {
     transfer: false
   },
   paymentAlternatives: [
-    { name: "swish", imageUrl: "" },
-    { name: "card", imageUrl: "" },
-    { name: "invoice", imageUrl: "" }
+    { name: "swish", imageUrl: "./images/swish.png" },
+    { name: "card", imageUrl: "./images/mastercard.png" },
+    { name: "invoice", imageUrl: "./images/klarna.png" }
   ]
 };
 
@@ -43,6 +43,10 @@ export default function Booking() {
         link5="Hjälp"
         logoUrl="../../../images/logo-1.png"
       ></TopSection>
+      <div className="top-container">
+        <a href="http://localhost:3000/hotels">Holiday Inn Mallorca</a>
+        <h1>Boka din resa</h1>
+      </div>
       <div className="flex-container">
         <div className="booking-information">
           <div className="info-left">
@@ -112,7 +116,7 @@ export default function Booking() {
               <div className="form-field">
                 <label>Telefonnummer</label>
                 <input type="text" name="contactPhone" />
-              </div>
+              </div><br></br>
               <div className="form-field">
                 <label>Adress</label>
                 <input type="text" name="contactAddress" />
@@ -148,8 +152,8 @@ export default function Booking() {
                 Nej
               </div>
             </div>
-            <div className="payment-types">
               <h2>Betalalternativ</h2>
+              <div className="payment-types">
               {data.paymentAlternatives.map((paymentAlternative, idx) => (
                 <div key={`${idx}`}>
                   {paymentAlternative.name}{" "}
