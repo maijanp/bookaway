@@ -19,31 +19,34 @@ function App() {
     setFoundHotels(foundHotels);
     if (foundHotels.length > 0) {
       navigate("/searchresult");
-    } else {alert('Inga matchande sökresultat. Försök igen')}
+    } else {
+      alert("Inga matchande sökresultat. Försök igen");
+    }
   };
+
   const fetchHotels = () => {
-    fetch("hotels.json")
+    fetch("/hotelsdata.json")
       .then((resp) => resp.json())
       .then((data) => {
         setHotels(data.hotels);
         setFoundHotels(data.hotels);
+        console.log("this is the data", data)
       })
       .catch((err) => console.log(err));
   };
 
   useEffect(fetchHotels, []);
 
-  
   return (
     <>
       <Routes>
         <Route
-          path="/"
+          exact path="/"
           element={<Home handleHotelSearch={handleHotelSearch} />}
         />
-        <Route path="/hotels" element={<Hotels hotels={hotels} />} />
-        {/* <Route path="/hotels/:id" element={<HotelPage hotels={hotels} />} /> */}
-        <Route path="/hotels/:id/booking" element={<BookingPage />} />
+        <Route exact path="/hotels" element={<Hotels hotels={hotels} />} />
+        <Route path="/hotels/:id" element={<HotelPage hotels={hotels} />} />
+        <Route path="/hotels/:id/booking" element={<BookingPage hotels={hotels}/>} />
         <Route
           path="/searchresult"
           element={<SearchResult foundHotels={foundHotels} />}

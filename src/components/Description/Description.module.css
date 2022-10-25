@@ -1,0 +1,96 @@
+.descriptionWrapper {
+  font-size: larger;
+}
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding: 1rem;
+}
+
+.introWrapper {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 9px 2px rgba(0, 0, 0, 0.27);
+  -webkit-box-shadow: 0px 4px 9px 2px rgba(0, 0, 0, 0.152);
+  -moz-box-shadow: 0px 4px 9px 2px rgba(0, 0, 0, 0.27);
+  padding: 1rem;
+}
+
+.introTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.factBoxContainer {
+  box-shadow: 0px 4px 9px 2px rgba(0, 0, 0, 0.27);
+  -webkit-box-shadow: 0px 4px 9px 2px rgba(0, 0, 0, 0.152);
+  -moz-box-shadow: 0px 4px 9px 2px rgba(0, 0, 0, 0.27);
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  padding: 1rem;
+  background-color: #bfe6e9;
+  justify-content: space-evenly;
+}
+
+.highlightsContainer {
+  justify-content: left;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  box-shadow: 0px 4px 9px 2px rgba(0, 0, 0, 0.27);
+  -webkit-box-shadow: 0px 4px 9px 2px rgba(0, 0, 0, 0.152);
+  -moz-box-shadow: 0px 4px 9px 2px rgba(0, 0, 0, 0.27);
+}
+
+.highlightsContainer h3 {
+text-align: center;
+}
+.factBoxContainer h3 {
+  margin-top: 0;
+}
+.row {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#li1,
+#li2,
+#li3,
+#li4,
+#li5,
+#li6 {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-repeat: round;
+  margin-right: 0.8rem;
+}
+
+#li1 {
+  background-image: url("/public/icons/buss.png");
+}
+#li2 {
+  background-image: url("/public/icons/mat.png");
+}
+#li3 {
+  background-image: url("/public/icons/telefon.png");
+}
+
+#li4 {
+  background-image: url("/public/icons/parasoll.png");
+  background-repeat: round;
+}
+#li5 {
+  background-image: url("/public/icons/camping.png");
+}
+#li6 {
+  background-image: url("/public/icons/cykel.png");
+}
