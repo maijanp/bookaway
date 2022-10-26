@@ -2,14 +2,11 @@ import CardGroup from "../components/CardGroup/CardGroup";
 import Searchbar from "../components/search/SearchBar";
 import LeftAlignedCard from "../components/LeftCard/LeftAlignedCard";
 
+//Skapar arrayer för select-element och  tillhörande options
 const placesOfDeparture = ["Stockholm", "Göteborg", "Malmö", "Köpenhamn"];
 const destinations = [
-  "Aruba",
-  "Cypern",
   "Grekland",
-  "Marocko",
   "Portugal",
-  "Sydafrika",
   "Spanien",
   "Thailand",
 ];
@@ -31,6 +28,7 @@ const dates = [
 
 const lengthsOfStay = ["Weekend", "1 vecka", "2 veckor", "3 veckor"];
 
+//Skapar och exporterar komponenten Home
 export default function Home(props) {
   return (
     <>
@@ -61,17 +59,15 @@ export default function Home(props) {
         card3LinkText="Res från 795:-/person"
       ></CardGroup>
       <LeftAlignedCard
-      imgUrl="../images/family_ocean.jpg"
-      cardTitle="Sommarresor"
-      cardParagraph1="Här hittar du alla våra resemål till sommarlovet.
+        imgUrl="../images/family_ocean.jpg"
+        cardTitle="Sommarresor"
+        cardParagraph1="Här hittar du alla våra resemål till sommarlovet.
       Ta med hela familjen, njut på stranden och åk på äventyr!
       "
-
-      cardParagraph2="  Bokar du ett All Inclusive hotell ingår även all mat och dryck."
-      cardLinkUrl="./hotels"
-      cardLinkText="Res från 1995:-/person"
+        cardParagraph2="Bokar du ett All Inclusive hotell ingår även all mat och dryck."
+        cardLinkUrl="./hotels"
+        cardLinkText="Res från 1995:-/person"
       ></LeftAlignedCard>
-      
     </>
   );
 }

@@ -1,7 +1,7 @@
 import HotelCard from "../components/HotelCard/HotelCard";
 import FilterForm from "../components/FilterForm/FilterForm"
 
-
+//Skapar och exporterar komponenten SearchResult
 export default function SearchResult(props) {
   return (
     <>

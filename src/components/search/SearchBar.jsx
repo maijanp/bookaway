@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "../search/SearchBar.module.css";
 
+//Skapar och exporterar komponenten Searchbar och tillderar klasser för styling
+//handleSubmit hämtar värdet i varje select-element
 export default function Searchbar(props) {
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -8,9 +10,9 @@ export default function Searchbar(props) {
     const departure = departureSelector.value;
     const locationSelector = e.target[1];
     const location = locationSelector.value;
-    props.handleSearch(departure, location)
+    props.handleSearch(departure, location);
   };
-
+  //Map används för att i varje select-element skapa ett option för varje index i de arrayer som finns angivna i Home
   return (
     <>
       <form className={styles.searchForm} onSubmit={handleSubmit}>
@@ -18,7 +20,9 @@ export default function Searchbar(props) {
           <label htmlFor="select1">{props.labelSelect1}</label>
           <select name="select1">
             {props.optionList1.map((objList1, idx) => (
-              <option key={`select1${idx}`} value={objList1}>{objList1}</option>
+              <option key={`select1${idx}`} value={objList1}>
+                {objList1}
+              </option>
             ))}
           </select>
         </div>
@@ -26,7 +30,9 @@ export default function Searchbar(props) {
           <label htmlFor="select2">{props.labelSelect2}</label>
           <select name="select2">
             {props.optionList2.map((objList2, idx) => (
-              <option key={`select2${idx}`} value={objList2}>{objList2}</option>
+              <option key={`select2${idx}`} value={objList2}>
+                {objList2}
+              </option>
             ))}
           </select>
         </div>
@@ -35,7 +41,9 @@ export default function Searchbar(props) {
           <label htmlFor="select3">{props.labelSelect3}</label>
           <select name="select3">
             {props.optionList3.map((objList3, idx) => (
-              <option key={`select3${idx}`} value={objList3.month}>{objList3.month}</option>
+              <option key={`select3${idx}`} value={objList3.month}>
+                {objList3.month}
+              </option>
             ))}
           </select>
         </div>
@@ -43,7 +51,9 @@ export default function Searchbar(props) {
           <label htmlFor="select4">{props.labelSelect4}</label>
           <select name="select4">
             {props.optionList4.map((objList4, idx) => (
-              <option key={`select4${idx}`} value={objList4}>{objList4}</option>
+              <option key={`select4${idx}`} value={objList4}>
+                {objList4}
+              </option>
             ))}
           </select>
         </div>

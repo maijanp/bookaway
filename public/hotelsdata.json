@@ -1,74 +1,158 @@
 {
-"hotels": [
-    {
-        "hotelId": 0,
-        "name": "Holiday Inn Mallorca",
-        "location": "Mallorca, Palma Nova",
-        "departure": ["Stockholm", "Göteborg", "Köpenhamn"],
-        "description": "Holiday Inn Mallorca ligger ett stankast från stranden och endast en kort promenad från centrum. Här finns något för hela familjen, varför inte slappa i en solstol när barnen är på bamseclub? Vi erbjuder även flera olika aktiviteter och utflykter. Så vare sig  om du vill ta det lugnt eller hålla igång under semestern så finns det något för dig.",
-        "facilities": ["WiFi", "Reception 24h", "Bad/strand 50 m", "Restaurang", "Barnpool"],
-        "image": {"main": "../images/image_1.jpg", "secondary": "../images/hotelRoom.jpg", "third":"../images/balcony.jpg"},
-        "food": ["All Inclusive"],
-        "price": {
-            "adults": 3995,
-            "children": 1995
+    "hotels": [
+        {
+            "hotelId": 0,
+            "name": "Holiday Inn Mallorca",
+            "location": "Spanien",
+            "departure": [
+                "Stockholm",
+                "Göteborg",
+                "Köpenhamn"
+            ],
+            "description": "Holiday Inn Mallorca ligger ett stankast från stranden och endast en kort promenad från centrum. Här finns något för hela familjen, varför inte slappa i en solstol när barnen är på bamseclub? Vi erbjuder även flera olika aktiviteter och utflykter. Så vare sig  om du vill ta det lugnt eller hålla igång under semestern så finns det något för dig.",
+            "facilities": [
+                "WiFi",
+                "Reception 24h",
+                "Bad/strand 50 m",
+                "Restaurang",
+                "Barnpool"
+            ],
+            "image": {
+                "main": "../images/image_1.jpg",
+                "secondary": "../images/hotelRoom.jpg",
+                "third": "../images/balcony.jpg"
+            },
+            "food": [
+                "All Inclusive"
+            ],
+            "price": {
+                "adults": 3995,
+                "children": 1995
+            }
+        },
+        {
+            "hotelId": 1,
+            "name": "Adventure Hotel",
+            "location": "Grekland",
+            "departure": [
+                "Stockholm",
+                "Göteborg",
+                "Köpenhamn",
+                "Malmö"
+            ],
+            "description": "Adventure Hotel är ett omtyckt All Inclusive-hotell som har en egen vattenpark med vattenrutschkanor för såväl stora som små. Här finns även en lazy-river och en vattenlekpark för de yngre barnen.",
+            "facilities": [
+                "WiFi",
+                "Reception 24h",
+                "Bad/strand 900 m",
+                "Restaurang",
+                "Barnpool"
+            ],
+            "image": {
+                "main": "../images/image_2.jpg",
+                "secondary": "../images/hotelroom_2.jpg",
+                "third":"../images/third_grekland.jpg"
+            },
+            "food": [
+                "All Inclusive"
+            ],
+            "price": {
+                "adults": 4495,
+                "children": 2495
+            }
+        },
+        {
+            "hotelId": 2,
+            "name": "Relax Hotel",
+            "location": "Thailand",
+            "departure": [
+                "Stockholm",
+                "Göteborg",
+                "Köpenhamn",
+                "Malmö"
+            ],
+            "description": "Njut av avkoppling i en lyxig miljö på Relax Hotel. Här finns allt som behövs för en avslappnad semestertillvaro och du bor i modernt inredda rum. Här kan du passa på att bara vara.",
+            "facilities": [
+                "WiFi",
+                "Reception 24h",
+                "Bad/strand 500 m",
+                "Restaurang",
+                "Barnpool",
+                "Spa"
+            ],
+            "image": {
+                "main": "../images/image_3.jpg",
+                "secondary": "../images/hotelroom_thailand.jpg",
+                "third":"../images/third_thailand.jpg"
+            },
+            "food": [
+                "All Inclusive"
+            ],
+            "price": {
+                "adults": 6995,
+                "children": 3495
+            }
+        },
+        {
+            "hotelId": 3,
+            "name": "Grand Beach Hotel",
+            "location": "Thailand",
+            "departure": [
+                "Stockholm",
+                "Göteborg",
+                "Köpenhamn"
+            ],
+            "description": "Grand Beach Hotel ligger vackert inbäddad i en grönskande trädgård, och med vackra kalkstensklippor i bakgrunden precis intill stranden. Tillbringa dagen i solstolen, beställ in lunch på hotellets restaurang och ta dagen som den kommer. Från hotellet är det nära till shopping, restauranger och nöjen i Ao Nang.",
+            "facilities": [
+                "WiFi, ",
+                "Reception 24 h, ",
+                "Bad/strand 0m, ",
+                "Restaurang, ",
+                "Barnpool"
+            ],
+            "image": {
+                "main": "../images/image_4.jpg",
+                "secondary": "../images/hotelroom_thailand2.jpg",
+                "third": "../images/third_thailand2.jpg"
+            },
+            "food": [
+                "Frukost"
+            ],
+            "price": {
+                "adults": 2495,
+                "children": 1495
+            }
+        },
+        {
+            "hotelId": 4,
+            "name": "Blue Playa Hotel",
+            "location": "Portugal",
+            "departure": [
+                "Stockholm",
+                "Göteborg",
+                "Köpenhamn",
+                "Malmö"
+            ],
+            "description": "Njut av en vistelse på exklusiva hotell Blue Playa i Lagos. Här bor du i eleganta sviter och kan njuta av den välsmakande maten på Il Gallo d'Oro, en restaurang belönad med två stjärnor i Michelin-guiden. Här kan du verkligen koppla av och njuta av att bara vara.",
+            "facilities": [
+                "WiFi",
+                "Reception 24h",
+                "Bad/strand 0m",
+                "Restaurang",
+                "Barnpool"
+            ],
+            "image": {
+                "main": "../images/image_5.jpg",
+                "secondary": "../images/second_grekland.jpg",
+                "third":"../images/third_grekland.jpg"
+            },
+            "food": [
+                "Halv Pension"
+            ],
+            "price": {
+                "adults": 2995,
+                "children": 1995
+            }
         }
-    },
-    {
-        "hotelId": 1,
-        "name": "Adventure Hotel",
-        "location": "Grekland",
-        "departure": ["Stockholm", "Göteborg", "Köpenhamn", "Malmö"],
-        "description": "",
-        "facilities": ["WiFi", "Reception 24h", "Bad/strand 900 m", "Restaurang", "Barnpool"],
-        "image": {"main": "../images/image_2.jpg", "secondary":"../images/hotelroom_2.jpg"},
-        "food": ["All Inclusive"],
-        "price": {
-            "adults": 4495,
-            "children": 2495
-        }
-    },
-    {
-        "hotelId": 2,
-        "name": "Relax Hotel",
-        "location": "Thailand",
-        "departure": ["Stockholm", "Göteborg", "Köpenhamn"],
-        "description": "",
-        "facilities": ["WiFi", "Reception 24h", "Bad/strand 500 m", "Restaurang", "Barnpool", "Spa"],
-        "image": {"main":"../images/image_3.jpg", "secondary":"../images/hotelroom_thailand.jpg"},
-        "food": ["All Inclusive"],
-        "price": {
-            "adults": 6995,
-            "children": 3495
-        }
-    },
-    {
-        "hotelId": 3,
-        "name": "Grand Beach Hotel",
-        "location": "Thailand",
-        "departure": ["Stockholm", "Göteborg", "Köpenhamn"],
-        "description": "",
-        "facilities": ["WiFi, ", "Reception 24 h, ", "Bad/strand 3 km, ", "Restaurang, ", "Barnpool"],
-        "image": {"main":"../images/image_4.jpg","secondary":"../images/hotelroom_thailand2.jpg", "third":"../images/third_thailand2.jpg"},
-        "food": ["Frukost"],
-        "price": {
-            "adults": 2495,
-            "children": 1495
-        }
-    },
-    {
-        "hotelId": 4,
-        "name": "Blue Playa Hotel",
-        "location": "Portugal",
-        "departure": ["Stockholm", "Göteborg", "Köpenhamn", "Malmö"],
-        "description": "",
-        "facilities": ["WiFi", "Reception 24h", "Bad/strand 0m", "Restaurang", "Barnpool"],
-        "image": {"main":"./images/image_5.jpg", "secondary":"../images/hotelroom_thailand2.jpg"},
-        "food": ["Halv Pension"],
-        "price": {
-            "adults": 2995,
-            "children": 1995
-        }
-    }
-]
+    ]
 }

@@ -1,13 +1,13 @@
-.button{
-    height: fit-content;
-    padding: 0.5rem;
-    background-color: #91D7FF;
-    border-radius: 5px;
-    min-width: 100px;
-    text-align: center;
-    text-decoration: none;
-    color: #4F5E75;
-    box-shadow: 1px 4px 4px 1px rgba(0,0,0,0.27);
--webkit-box-shadow: 1px 4px 4px 1px rgba(0,0,0,0.27);
--moz-box-shadow: 1px 4px 4px 1px rgba(0,0,0,0.27);
+.button {
+  height: fit-content;
+  padding: 0.5rem;
+  background-color: #91d7ff;
+  border-radius: 5px;
+  min-width: 100px;
+  text-align: center;
+  text-decoration: none;
+  color: #4f5e75;
+  box-shadow: 1px 4px 4px 1px rgba(0, 0, 0, 0.27);
+  -webkit-box-shadow: 1px 4px 4px 1px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: 1px 4px 4px 1px rgba(0, 0, 0, 0.27);
 }

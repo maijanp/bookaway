@@ -1,32 +1,32 @@
-.imageContainer{
-    width: 20%;
+.imageContainer {
+  width: 20%;
 }
 
-img{
-    width: 100%;
+img {
+  width: 100%;
 }
 
-.container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav{
-   
-    font-size: 1.5rem;
-    display: flex;
-    flex-direction: row;
-    width: 45%;
-    justify-content: space-evenly;
-    text-align: right;
+nav {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  width: 45%;
+  justify-content: space-evenly;
+  text-align: right;
 }
 
-nav a{
-    color:#4F5E75;
-text-decoration: none;
+nav a {
+  color: #4f5e75;
+  text-decoration: none;
 }
 
-nav a:hover{
-text-decoration: underline;}
+nav a:hover {
+  text-decoration: underline;
+}

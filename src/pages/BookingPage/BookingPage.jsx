@@ -1,6 +1,4 @@
-import TopSection from "../../components/TopSection/TopSection";
 import "./BookingPage.css";
-
 const data = {
   hotel: {
     name: "Holiday Inn Mallorca, Mallorca Palma Nova",
@@ -9,29 +7,31 @@ const data = {
     totalPrice: 15975,
     adults: 3,
     children: 2,
-    rooms: 2
+    rooms: 2,
   },
   additional: {
     connectedRooms: false,
-    transfer: false
+    transfer: false,
   },
   paymentAlternatives: [
     { name: "swish", imageUrl: "/images/swish.png" },
     { name: "card", imageUrl: "/images/visa.png" },
-    { name: "invoice", imageUrl: "/images/klarna.png" }
-  ]
+    { name: "invoice", imageUrl: "/images/klarna.png" },
+  ],
 };
 
 function handleSubmit(e) {
   e.preventDefault();
   console.log("Formulär skickat! :)");
 }
-
+//Skapar och exporterar komponenten BookingPage och tilldelar klasser för styling
 export default function Booking() {
   return (
     <>
       <div className="top-container">
-        <a className="a" href="http://localhost:3000/hotels/0">Holiday Inn Mallorca</a>
+        <a className="a" href="http://localhost:3000/hotels/0">
+          Holiday Inn Mallorca
+        </a>
         <h1 className="h1">Boka din resa</h1>
       </div>
       <div className="flex-container">
@@ -103,7 +103,8 @@ export default function Booking() {
               <div className="form-field">
                 <label>Telefonnummer</label>
                 <input type="text" name="contactPhone" />
-              </div><br></br>
+              </div>
+              <br></br>
               <div className="form-field">
                 <label>Adress</label>
                 <input type="text" name="contactAddress" />
@@ -118,7 +119,7 @@ export default function Booking() {
               </div>
             </div>
             <div className="additional-info">
-              <h2  className="h2">Tillval</h2>
+              <h2 className="h2">Tillval</h2>
               <div className="form-field">
                 <label>Anslutande rum</label>
                 <input type="radio" name="connectedRooms" value="Yes" />
@@ -139,16 +140,21 @@ export default function Booking() {
                 Nej
               </div>
             </div>
-              <h2 className="h2">Betalalternativ</h2>
-              <div className="payment-types">
+            <h2 className="h2">Betalalternativ</h2>
+            <div className="payment-types">
               {data.paymentAlternatives.map((paymentAlternative, idx) => (
                 <div key={`${idx}`}>
                   {paymentAlternative.name}{" "}
-                  <img className="payment-img" src={paymentAlternative.imageUrl} />
+                  <img
+                    className="payment-img"
+                    src={paymentAlternative.imageUrl}
+                  />
                 </div>
               ))}
             </div>
-            <button className="booking-btn" type="submit">Bekräfta bokning</button>
+            <button className="booking-btn" type="submit">
+              Bekräfta bokning
+            </button>
           </form>
         </div>
       </div>

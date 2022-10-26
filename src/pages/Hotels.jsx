@@ -1,5 +1,6 @@
 import FilterForm from "../components/FilterForm/FilterForm"
 import HotelCard from "../components/HotelCard/HotelCard";
+//Skapar och exporterar komponenten HotelPage
 export default function Hotels(props) {
   return (
     <>
